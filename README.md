@@ -117,7 +117,7 @@ classification problem and Titanic dataset is based on classification problem. D
 is the base of many advanced machine learning models such as Random Forest, AdaBoost,
 XGBoost and so on. The steps to learn a decision tree from the scratch can help us to build
 a strong base in the machine learning field. The accuracy score of the decision tree is 80.12.
-The process of shuffling the data can affect the accuracy score, while re-running the model.
+<b> The process of shuffling the data can affect the accuracy score, while re-running the model.</b>
 The reason to choose decision tree over other model such as KNN, decision is faster than
 KNN model. The future study is to build a Random Forest model from scratch to get a
 more accurate prediction.

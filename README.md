@@ -74,6 +74,10 @@ compare to entropy index.
 
 Gini index formula = 1 - Σ (Pi)^2
 
+Then we calculate the Information Gain based on the Reminder and Gini impurity of the
+feature. Information gain tells us how important the feature is to predict the results or
+labeled data.
+
 Information Gain formula = entropy(parent node) – [average entropy(children node)]
 
 ##### Find the best split:

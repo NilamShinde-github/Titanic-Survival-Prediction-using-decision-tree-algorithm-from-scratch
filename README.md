@@ -67,10 +67,10 @@ We can calculate the impurity of the dataset (target feature) and then the impur
 feature (dependent features to predict target feature). There are two different ways to
 calculate the impurity of features known as entropy index and Gini index. Gini index is
 used for CART (Classification and regression tree) and it gives more accurate results as
-compare
-to entropy index.
+compare to entropy index.
 
-Gini index formula = 1 - Σ (Pi)^2
+I have used Entropy gain using below formula:
+
 
 Then we calculate the Information Gain based on the Reminder and Gini impurity of the
 feature. Information gain tells us how important the feature is to predict the results or

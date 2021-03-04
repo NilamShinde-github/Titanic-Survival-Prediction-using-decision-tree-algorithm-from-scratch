@@ -53,7 +53,7 @@ the two child nodes of the root node. The goal of this process is to separate th
 we proceed down. The important fact to build an effective decision tree is based on which
 question to ask and when to ask and to do that we have to quantify how many questions
 can help us to separate the labels. We can quantify the amount of uncertainty of each node
-(feature) using a matrix called Gini impurity and can calculate how much questions reduce
+(feature) using a matrix called Entropy and can calculate how much questions reduce
 that uncertainty using the Information Gain formula. We use this concept to select the best
 question to ask and split the data based on those questions till the end of the questions. The
 end nodes are known as a leaf node.

@@ -46,8 +46,7 @@ I have chosen Pclass, Gender, Age, SibSp, Parch, Fare, Embarked, Prefix and Surv
 features for the model building process.
 
 #### Model building
-I will start building the model from the root node. We can select the root node based on
-information gain. The higher the information gain the more suitable feature for the root
+I will start building the model from the root node (Output feature). Then we can split the decision nodes based on Information Gain.  The higher the information gain the more suitable feature for the decision
 node. Then we can split the remaining features based on questions we ask. Those nodes
 are known as sub-nodes or child nodes of the decision tree. The sub-nodes then become
 the two child nodes of the root node. The goal of this process is to separate the labels as

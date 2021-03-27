@@ -74,7 +74,7 @@ I have used Entropy gain using below formula:
 
 pi = probability
 
-Then we calculate the Information Gain based on the Reminder and Gini impurity of the
+Then we calculate the Information Gain based on the Reminder and entropy impurity of the
 feature. Information gain tells us how important the feature is to predict the results or
 labeled data.
 

@@ -38,7 +38,7 @@ I have decided to work on the Decision Tree model. The reason is that the decisi
 faster than other models. For, example, KNN doesn’t support feature interaction whereas
 Decision Tree does support. Naïve Bayes is a good model, but if we have categorical data
 and if it didn’t observe in training data, the model will assign 0 probability which can lead
-to making a wrong prediction. After thinking about all pros and cons of the Decision Tree,
+to make a wrong prediction. After thinking about all pros and cons of the Decision Tree,
 I moved forward to work with the Decision Tree algorithm.
 
 #### Feature Selection

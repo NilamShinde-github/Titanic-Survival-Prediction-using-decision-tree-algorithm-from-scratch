@@ -89,7 +89,7 @@ into the binary format).
 #### Model evaluation
 After building the decision tree model and testing the data, I wanted to check the accuracy
 score of the built model.
-I have only created one decision tree and I got an accuracy score of 86.03.. I create
+I have only created one decision tree and I got an accuracy score of 86.03.. I can create
 many decision trees and combine them the calculate accuracy score then it will give me a
 good accuracy score. The combination of many decision trees is known as a "Random
 Forest". Accuracy score is also dependent on train and test dataset split amount. I have
